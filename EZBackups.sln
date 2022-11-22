@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1433
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EZBackups", "EZBackups\EZBackups.csproj", "{FC7C7678-B6AA-4535-BEDA-977B30C3E6BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC7C7678-B6AA-4535-BEDA-977B30C3E6BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC7C7678-B6AA-4535-BEDA-977B30C3E6BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC7C7678-B6AA-4535-BEDA-977B30C3E6BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC7C7678-B6AA-4535-BEDA-977B30C3E6BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D2A290E-2E2B-4289-8004-02E173EBC633}
+	EndGlobalSection
+EndGlobal
