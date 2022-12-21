@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace EZBackups.Properties {
+namespace EZBackups {
     using System;
     
     
@@ -22,14 +22,14 @@ namespace EZBackups.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    internal class Res {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Resources() {
+        internal Res() {
         }
         
         /// <summary>
@@ -39,7 +39,7 @@ namespace EZBackups.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("EZBackups.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("EZBackups.Res", typeof(Res).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -61,32 +61,47 @@ namespace EZBackups.Properties {
         }
         
         /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        ///   Busca una cadena traducida similar a Comprimir backups.
         /// </summary>
-        internal static System.Drawing.Bitmap espana {
+        internal static string cbComprimir {
             get {
-                object obj = ResourceManager.GetObject("espana", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("cbComprimir", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        ///   Busca una cadena traducida similar a Preguntar antes.
         /// </summary>
-        internal static System.Drawing.Bitmap espana__1_ {
+        internal static string cbPregunta {
             get {
-                object obj = ResourceManager.GetObject("espana (1)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("cbPregunta", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        ///   Busca una cadena traducida similar a Carpeta de Proyextos.
         /// </summary>
-        internal static System.Drawing.Bitmap estados_unidos {
+        internal static string edRuta {
             get {
-                object obj = ResourceManager.GetObject("estados-unidos", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ResourceManager.GetString("edRuta", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Nombre de archivos ejemplo: &quot;AAAAMMDD_MiProyectoEnDesarrollo&quot;.
+        /// </summary>
+        internal static string lbEjemplo {
+            get {
+                return ResourceManager.GetString("lbEjemplo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a Normativa de nomenclatura backups.
+        /// </summary>
+        internal static string lbNormativa {
+            get {
+                return ResourceManager.GetString("lbNormativa", resourceCulture);
             }
         }
     }
